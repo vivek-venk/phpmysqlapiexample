@@ -7,7 +7,33 @@
 
 ?>
 
-<table border=1>
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+table.names tr:nth-child(even) {
+  background-color: #eee;
+}
+table.names tr:nth-child(odd) {
+  background-color:#fff;
+}
+table.names th {
+  background-color: black;
+  color: white
+}
+</style>
+
+<center><h1> <u>Employee Database Contents</u></h1></center>
+
+<table class="names">
 	<tbody>
 		<tr>
 			<th>id</th>

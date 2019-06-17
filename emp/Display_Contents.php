@@ -35,6 +35,7 @@ table.names th {
 }
 </style>
 
+<a href="http://localhost/api/emp/index.php">HOME</a>
 <center><h1> <u>Employee Database Contents</u></h1></center>
 
 <table class="names">

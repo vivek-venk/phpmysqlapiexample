@@ -4,7 +4,7 @@
 
 <style>
 body {
-  background-image: url(http://localhost/api/images/Employee_background.jpg);
+  background-image: url(../images/Employee_background.jpg);
 }
 </style>
 

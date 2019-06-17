@@ -8,6 +8,10 @@
 ?>
 
 <style>
+body {
+  background-color: lightblue;
+}
+	
 table {
   width:100%;
 }

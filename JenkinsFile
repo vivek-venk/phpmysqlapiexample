@@ -1,0 +1,26 @@
+pipeline{
+	agent any
+	
+	stages {
+		stage('Preppare Workspace') {
+			steps {
+					
+			}
+		}
+		stage('Code Checkoutut'){
+			steps {
+			
+				
+			}
+		
+		}
+		stage('Build'){
+			steps {
+			
+				
+			}
+		
+		}
+	}
+
+}

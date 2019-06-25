@@ -10,7 +10,7 @@ pipeline{
 		}
 		stage('Code Checkoutut'){
 			steps {
-				def commitHash = checkout(scm).GIT_COMMIT				
+				//def commitHash = checkout(scm).GIT_COMMIT				
 			}		
 		}
 		stage('Build'){

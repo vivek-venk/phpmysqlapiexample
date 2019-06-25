@@ -18,3 +18,5 @@ About the Project:
 emp/*.php -> Files with create.php, delete.php, read.php and update.php respectively are used to perform the CRUD operations.
 class/*.php -> Rest.php file performs the DB operation to udpate records to the database.
 inc/*.php -> are supporting files for the project. db_connect.php can be used to test the connectivty check to the database.
+
+Attached a JenkinsFile for trigger through JenkinsFile.

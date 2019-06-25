@@ -4,23 +4,19 @@ pipeline{
 	stages {
 		stage('Preppare Workspace') {
 			steps {
-					
+				echo "Hello World"
+				cleanWs();	
 			}
 		}
 		stage('Code Checkoutut'){
 			steps {
-			
-				
-			}
-		
+				def commitHash = checkout(scm).GIT_COMMIT				
+			}		
 		}
 		stage('Build'){
 			steps {
-			
-				
+						
 			}
-		
 		}
 	}
-
 }

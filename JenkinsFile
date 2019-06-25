@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	
 	stages {
-		stage('Preppare Workspace') {
+		stage('Prepare Workspace') {
 			steps {
 				echo "Hello World"
 				cleanWs();	

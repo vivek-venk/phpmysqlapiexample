@@ -11,6 +11,7 @@ pipeline{
 		stage('Code Checkoutut'){
 			steps {
 				echo "Inside Check Out"
+				checkout scm
 				//def commitHash = checkout(scm).GIT_COMMIT				
 			}		
 		}
